@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class sendKeys {
 public static void main(String[] args) {
+	System.out.println("suraj bartade");
+	System.out.println("durga lande");
 	System.setProperty("webdriver.chrome.driver","C:\\sachin bhavji\\Downloads\\chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.get("https://demo.actitime.com/login.do");
